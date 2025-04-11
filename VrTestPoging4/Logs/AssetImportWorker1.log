@@ -15,7 +15,7 @@ C:/Users/patri/OneDrive/Documenten/Github/VrAr/VrTestPoging4
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64663
+64238
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/patri/OneDrive/Documenten/Github/VrAr/VrTestPoging4
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27436]  Target information:
+Player connection [3392]  Target information:
 
-Player connection [27436]  * "[IP] 10.11.16.5 [Port] 0 [Flags] 2 [Guid] 2547555583 [EditorId] 2547555583 [Version] 1048832 [Id] WindowsEditor(7,Patries) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3392]  * "[IP] 10.11.16.5 [Port] 0 [Flags] 2 [Guid] 55578601 [EditorId] 55578601 [Version] 1048832 [Id] WindowsEditor(7,Patries) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27436] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27436] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3392] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3392] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,8 +75,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.02 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 2.89 ms.
+Refreshing native plugins compatible for Editor in 9.74 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 3.53 ms.
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/patri/OneDrive/Documenten/Github/VrAr/VrTestPoging4/Assets
@@ -87,52 +87,54 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     3964 MB
     Driver:   32.0.15.6636
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves Distance': fallback shader 'TransparentCutout' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.005140 seconds.
-- Loaded All Assemblies, in  0.420 seconds
+Registered in 0.005572 seconds.
+- Loaded All Assemblies, in  0.472 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 293 ms
+Android Extension - Scanning For ADB Devices 268 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.703 seconds
-Domain Reload Profiling: 1120ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (168ms)
-		LoadAssemblies (137ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (180ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (163ms)
-				TypeCache.ScanAssembly (149ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (153ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (704ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (662ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (652ms)
+		SetupLoadedEditorAssemblies (628ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (399ms)
+			InitializePlatformSupportModulesInManaged (373ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,8 +143,8 @@ Domain Reload Profiling: 1120ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.964 seconds
-Refreshing native plugins compatible for Editor in 6.49 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.934 seconds
+Refreshing native plugins compatible for Editor in 6.74 ms, found 12 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -170,86 +172,152 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.868 seconds
-Domain Reload Profiling: 1825ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 1788ms
+	BeginReloadAssembly (195ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (659ms)
-		LoadAssemblies (456ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (632ms)
+		LoadAssemblies (458ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (318ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (193ms)
-			BuildScriptInfoCaches (86ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (869ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (185ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (860ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (671ms)
+		SetupLoadedEditorAssemblies (668ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (411ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves Distance': fallback shader 'TransparentCutout' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 6.60 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Unloading 219 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6868 unused Assets / (5.4 MB). Loaded Objects now: 7537.
-Memory consumption went from 163.3 MB to 157.9 MB.
-Total: 10.407600 ms (FindLiveObjects: 0.843700 ms CreateObjectMapping: 0.806200 ms MarkObjects: 5.153500 ms  DeleteObjects: 3.602600 ms)
+Refreshing native plugins compatible for Editor in 6.74 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6895 unused Assets / (5.1 MB). Loaded Objects now: 7568.
+Memory consumption went from 173.4 MB to 168.2 MB.
+Total: 15.876400 ms (FindLiveObjects: 1.049200 ms CreateObjectMapping: 1.263300 ms MarkObjects: 8.045700 ms  DeleteObjects: 5.515400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 365978.902451 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15be5ba4d5b2b3ffcc56475d7901d8b3') in 0.0279312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+  Time since last request: 970037.610129 seconds.
+  path: Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Art/Materials/Trimsheet2/Trimsheet2_Mask2.mat
+  artifactKey: Guid(fa915efd77d7b85498666d4deb118247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Art/Materials/Trimsheet2/Trimsheet2_Mask2.mat using Guid(fa915efd77d7b85498666d4deb118247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9051ba7cdf9d336de4fece0fcc174e4') in 3.5865943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.286060 seconds.
-  path: Assets/Resources/PXR_ProjectSetting.asset
-  artifactKey: Guid(7173756c764890440a38c476c2b738a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/PXR_ProjectSetting.asset using Guid(7173756c764890440a38c476c2b738a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e01b9f0e6235d049b46281cd024dc96') in 0.0014295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 57.321451 seconds.
+  path: Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Prefabs/Construction Pieces/Floor/WoodFloor1/WoodenFloor_Half2.prefab
+  artifactKey: Guid(d91e55beb92e4a74498611fc5667d957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Prefabs/Construction Pieces/Floor/WoodFloor1/WoodenFloor_Half2.prefab using Guid(d91e55beb92e4a74498611fc5667d957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '381a46ab23471edbbd8bd525b83e98fc') in 0.5158213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.408015 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aef1b5780e7730518d46eb0d392eb05') in 0.0020196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 27.927873 seconds.
+  path: Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Prefabs/Construction Pieces/WoodStructure/WoodStructure_Piece3.prefab
+  artifactKey: Guid(b139c30c9571055409f611226f7ff7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Prefabs/Construction Pieces/WoodStructure/WoodStructure_Piece3.prefab using Guid(b139c30c9571055409f611226f7ff7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceb2001ff619c9d5e66dd5343ec3332e') in 0.5162389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b72c935079ba95563e246d02d57d535f') in 0.0014208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000052 seconds.
+  path: Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Prefabs/Construction Pieces/WoodStructure/WoodSupport3.prefab
+  artifactKey: Guid(92803b634c1fb6049ad834467fafe1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Prefabs/Construction Pieces/WoodStructure/WoodSupport3.prefab using Guid(92803b634c1fb6049ad834467fafe1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe0a40a70fe40664640c4969e1c0769b') in 0.5195632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Prefabs/Construction Pieces/WoodStructure/WoodStructure_Piece4.prefab
+  artifactKey: Guid(a46a9c6200d541f47996695877558e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DShapes/Modular Medieval Village MegaPack - Free Demo House/Prefabs/Construction Pieces/WoodStructure/WoodStructure_Piece4.prefab using Guid(a46a9c6200d541f47996695877558e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4f64d68baa0ae1444587b967f63cdb') in 0.4791256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.847998 seconds.
+  path: Assets/Fristy Mobile CG/Foliage/Grass/1_Grass_2.fbx
+  artifactKey: Guid(31c3ef30f119c1543a7ccdbbc0846e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Mobile CG/Foliage/Grass/1_Grass_2.fbx using Guid(31c3ef30f119c1543a7ccdbbc0846e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '671b5eb518fd8a9493366f66e32f0fb3') in 0.0997093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '372bccd71eb9f7bfa9bbe70a0fd08f87') in 0.0012708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  path: Assets/Fristy Mobile CG/Foliage/Grass/Grass_1_heights.png
+  artifactKey: Guid(9006298220489f74aa602ba0c26c9408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Mobile CG/Foliage/Grass/Grass_1_heights.png using Guid(9006298220489f74aa602ba0c26c9408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87fd31c853690f81c7d5cfd1fee91194') in 0.0301086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.022636 seconds.
+  path: Assets/Fristy Mobile CG/Foliage/Plants/5_Weed 2.fbx
+  artifactKey: Guid(e55826c1f704c744eb9b962f845af1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Mobile CG/Foliage/Plants/5_Weed 2.fbx using Guid(e55826c1f704c744eb9b962f845af1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc2291ce8f8bbe74aa1fde6701cba399') in 0.0406996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fristy Mobile CG/Foliage/Plants/Green river plants.fbx
+  artifactKey: Guid(ed5178436c85b42468469b3e99224f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Mobile CG/Foliage/Plants/Green river plants.fbx using Guid(ed5178436c85b42468469b3e99224f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8274b9bf5dedd8bc5ceebc9405276947') in 0.0356509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fristy Mobile CG/Foliage/Plants/plants red2.png
+  artifactKey: Guid(7545d47ed0de90d4887f3ce3ad0a8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Mobile CG/Foliage/Plants/plants red2.png using Guid(7545d47ed0de90d4887f3ce3ad0a8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '861dacdedc9c8ed8766c400aa21392f8') in 0.0256304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Fristy Mobile CG/Foliage/Plants/stylized art plants.png
+  artifactKey: Guid(ee8342f53f240de418b03487260a2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Mobile CG/Foliage/Plants/stylized art plants.png using Guid(ee8342f53f240de418b03487260a2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66c4d294a987892e18e24408e2b449e2') in 0.0228247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fristy Mobile CG/Foliage/Plants/plants red.png
+  artifactKey: Guid(050a42a7f01765b4890f9e6137be924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Mobile CG/Foliage/Plants/plants red.png using Guid(050a42a7f01765b4890f9e6137be924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e5baca0a23f66d4c1c5f34c311608f9') in 0.0211854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fristy Mobile CG/Foliage/Plants/stylized art plants normal.png
+  artifactKey: Guid(f922e1f9da10fe7459bc43bb4bce81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Mobile CG/Foliage/Plants/stylized art plants normal.png using Guid(f922e1f9da10fe7459bc43bb4bce81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebe2f74b35eeb049d435eb63eb73388f') in 0.0288563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
